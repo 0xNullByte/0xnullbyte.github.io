@@ -1,0 +1,85 @@
+/* */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  body{
+    margin: auto;
+    background: url('https://wallpaperaccess.com/full/2825826.gif') no-repeat center fixed ;     
+    background-size: cover;
+  }
+
+  .container {
+    margin: auto;
+    margin-top: 50%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-family: courier;
+    font-size: 15px;
+    border-radius: 25px;
+    background: #000000a8;
+    padding: 20px;
+    width: 375px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+}
+
+
+/* */
+@media only screen and (min-width: 900px) {
+    body {
+        margin: auto;
+        background: url('https://wallpaperaccess.com/full/2825826.gif') no-repeat center fixed ;     
+        background-size: cover;
+    }
+
+    .container {
+        margin: auto;
+        margin-top: 15%;
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-family: courier;
+        border-radius: 25px;
+        background: #000000a8;
+        padding: 20px;
+        width: 600px;
+        height: 170px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        animation: glow 1s ease-in-out infinite alternate;
+        
+      }
+
+  }
+.social {
+    background-color: #ffffff;  
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  }
+.white{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+
+.glow {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
